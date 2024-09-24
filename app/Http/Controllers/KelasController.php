@@ -104,4 +104,8 @@ class KelasController extends Controller
 
         return view('kelas.detail-kelas', compact('kelas'));
     }
+
+    public function showKelas() {
+        
+    }
 }
